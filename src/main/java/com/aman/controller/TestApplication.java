@@ -12,8 +12,6 @@ public class TestApplication {
 
     @GetMapping(value = "health",produces = "application/json")
     public ResponseEntity getApplicationHealth(){
-        //String msg="Application is Up...";
-        //return new ResponseEntity<>(msg, HttpStatus.OK);
         TestApplicationHealth testApplicationHealth=new TestApplicationHealth();
         testApplicationHealth.setMsg("Application is Up...");
 
