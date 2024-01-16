@@ -13,7 +13,7 @@ public class TestApplication {
     @GetMapping(value = "health",produces = "application/json")
     public ResponseEntity getApplicationHealth(){
         TestApplicationHealth testApplicationHealth=new TestApplicationHealth();
-        testApplicationHealth.setMsg("Application is Up...");
+        testApplicationHealth.setMsg("Hey Aman Your Application is Up on ECS...");
 
         return ResponseEntity.ok(testApplicationHealth);
     }
