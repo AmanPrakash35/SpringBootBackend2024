@@ -58,3 +58,5 @@ jobs:
           service: springboot-example-service1
           cluster: springbootTest
           wait-for-service-stability: true
+
+          
